@@ -1,10 +1,16 @@
 <div class="container mt-5">
   <button class="btn btn-primary"
-          (click)="start()">
-    Start
+          (click)="basicsRedirect()">
+    Basics
   </button>
-  <button class="btn btn-danger"
-          (click)="stop()">
-    Stop
+</div>
+<div class="container mt-5">
+  <button class="btn btn-primary"
+          (click)="operatorsRedirect()">
+    Operators
   </button>
+</div>
+
+<div class="shadow p-3 m-5 bg-info rounded">  
+<router-outlet></router-outlet>
 </div>
